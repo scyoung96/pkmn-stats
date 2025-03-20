@@ -152,7 +152,7 @@ input.stat-form-item {
 
 .team-member {
     height: 3rem;
-    width: 55rem;
+    width: 60rem;
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 0.5rem;
@@ -170,7 +170,7 @@ input.stat-form-item {
     width: 8rem;
 }
 .team-member-stat:not(.pkmn-name) {
-    width: 6.5rem;
+    width: 7rem;
     height: 2.25rem;
     padding: 0.5rem;
 }
