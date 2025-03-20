@@ -411,7 +411,7 @@ function updateRemainingPoints() {
     let totalPointsUsed = 0;
     let pointsSpans = document.querySelectorAll(".team-member-stat-value");
     pointsSpans.forEach(span => {
-        if (!span.parentElement.classList.contains("hp")) {
+        if (!span.parentElement.classList.contains("hp") || !span.parentElement.classList.contains("spe")) {
             let valueCheck = parseInt(span.innerText) - 150 < 0 ? 0 : parseInt(span.innerText) - 150;
             totalPointsUsed += valueCheck;
         }
