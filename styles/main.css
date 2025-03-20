@@ -1,0 +1,197 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.major-component {
+    padding: 1rem;
+}
+
+.suggestion {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.suggestion:hover {
+    background-color: #f0f0f0;
+}
+
+#remaining-stats {
+    margin-right: 1rem;
+}
+
+#pkmn-display {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    margin: 1rem 1rem 0 1rem;
+}
+
+#add-to-team {
+    margin-left: 1rem;
+    display: none;
+}
+
+#stat-calculator {
+    display: flex;
+    flex-direction: row;
+}
+
+#stat-values {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 13rem;
+}
+
+#nature-modifiers {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 5%;
+    padding-top: 1.28rem;
+}
+
+.nature-modifier-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.nature-minus {
+    color: red;
+    border: 1px solid red;
+}
+.nature-minus.active {
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+.nature-plus {
+    color: blue;
+    border: 1px solid blue;
+}
+.nature-plus.active {
+    background-color: rgba(0, 0, 255, 0.3);
+}
+
+.nature-modifier-button {
+    border-radius: 5px;
+    width: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.25rem;
+    margin-left: 0.25rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.stats-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.stat-form-item {
+    height: 1rem;
+}
+
+input.stat-form-item {
+    width: 3rem;
+}
+
+.base-stat-div {
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.stat-value-div {
+    width: 6rem;
+    display: flex;
+    justify-content: end;
+}
+
+.hp {
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+.atk {
+    background-color: rgba(255, 128, 0, 0.3);
+}
+
+.def {
+    background-color: rgba(255, 255, 0, 0.3);
+}
+
+.spatk {
+    background-color: rgba(0, 255, 0, 0.3);
+}
+
+.spdef {
+    background-color: rgba(0, 0, 255, 0.3);
+}
+
+.spe {
+    background-color: rgba(128, 0, 255, 0.3);
+}
+
+#suggestions {
+    position: absolute;
+    background: white;
+    border: 1px solid #ddd;
+    max-height: 200px;
+    overflow-y: auto;
+    width: 200px;
+    z-index: 1000;
+    display: none;
+}
+
+.team-member {
+    height: 3rem;
+    width: 55rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.team-member-stat {
+    margin: 0;
+}
+.team-member-stat.pkmn-name {
+    width: 8rem;
+}
+.team-member-stat:not(.pkmn-name) {
+    width: 6.5rem;
+    height: 2.25rem;
+    padding: 0.5rem;
+}
+.team-member-stat.pkmn-hp {
+    border-radius: 5px 0 0 5px;
+}
+.team-member-stat.pkmn-spe {
+    border-radius: 0 5px 5px 0;
+}
+
+
+.edit-pkmn {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.edit-pkmn-btn {
+    margin: 0.125rem 0 0.125rem 1rem;
+    height: 1rem;
+    font-size: 0.75rem;
+    padding: 0 0.25rem;
+}
