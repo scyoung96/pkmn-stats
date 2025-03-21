@@ -416,7 +416,7 @@ function updateRemainingPoints() {
             totalPointsUsed += valueCheck;
         }
     });
-    let remainingPoints = 120 - totalPointsUsed;
+    let remainingPoints = 60 - totalPointsUsed;
     document.getElementById("remaining-points-value").innerHTML = remainingPoints;
 }
 
