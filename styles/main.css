@@ -202,6 +202,7 @@ body {
     text-align: center;
 }
 table {
+    height: 26%;
     width: 60%;
     margin: auto;
     border-collapse: collapse;
