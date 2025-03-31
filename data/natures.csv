@@ -1,0 +1,21 @@
+Nature,Plus,Minus
+Lonely,Atk,Def
+Brave,Atk,Spe
+Adamant,Atk,Sp. Atk
+Naughty,Atk,Sp. Def
+Relaxed,Def,Spe
+Impish,Def,Sp. Atk
+Lax,Def,Sp. Def
+Bold,Def,Atk
+Modest,Sp. Atk,Atk
+Mild,Sp. Atk,Def
+Quiet,Sp. Atk,Spe
+Rash,Sp. Atk,Sp. Def
+Calm,Sp. Def,Atk
+Gentle,Sp. Def,Def
+Sassy,Sp. Def,Spe
+Careful,Sp. Def,Sp. Atk
+Timid,Spe,Atk
+Hasty,Spe,Def
+Jolly,Spe,Sp. Atk
+Naive,Spe,Sp. Def

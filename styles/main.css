@@ -195,3 +195,84 @@ input.stat-form-item {
     font-size: 0.75rem;
     padding: 0 0.25rem;
 }
+
+/* ANCHOR: battle factory */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+table {
+    width: 60%;
+    margin: auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+th, td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+th {
+    background-color: #d3d3d3;
+}
+h3 {
+    margin: 0;
+    padding: 10px;
+}
+
+.type-bug { background-color: #dce6cc; }
+.type-dark { background-color: black; color: white; }
+
+#nature-modifiers {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ev-hp { background-color: #dae8fc; }
+#ev-spe { background-color: #eae2f9; }
+#ev-atk, #ev-def { background-color: #f4cccc; }
+#ev-spa, #ev-spd { background-color: #e5f5e0; }
+
+.move {
+
+}
+
+#take-pass {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+#teams {
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 20%;
+    margin-top: 1rem;
+}
+
+.team {
+}
+
+.active {
+    background-color: #cce5ff; /* Light blue background for active team */
+    border: 2px solid #007bff; /* Blue border for active team */
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5); /* Optional shadow for better visibility */
+    padding: 10px; /* Padding to ensure text doesn't touch the edges */
+    border-radius: 5px; /* Rounded corners for a softer look */
+}
+
+.pkmn-item {
+    margin: 0.5rem;
+}
