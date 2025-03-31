@@ -1,14 +1,15 @@
 let natures;
+let sets;
+
 initializeNatures().then((data) => {
     natures = data;
     console.log(natures);
-});
 
-let sets;
-initializeSets().then((data) => {
-    sets = data;
-    console.log(sets);
-    displayRandomSet();
+    initializeSets().then((data) => {
+        sets = data;
+        console.log(sets);
+        displayRandomSet();
+    });
 });
 
 let player1 = document.querySelector("#player-1");
