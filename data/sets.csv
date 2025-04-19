@@ -1,31 +1,19 @@
 Name,Type 1,Type 2,Ability,Item,Nature,HP,Atk,Def,Sp. Atk,Sp. Def,Spe,Move 1,Move 2 ,Move 3,Move 4
-Skarmory,Steel,Flying,Weak Armor,Liechi Berry,Adamant,180,252,,,76,,Swords Dance,Brave Bird,Iron Head,Reversal
-Donphan,Ground,,Sturdy,Heavy-Duty Boots,Adamant,252,4,,,252,,Stealth Rock,Earthquake,Rapid Spin,Ice Shard
-Kingdra,Water,Dragon,Sniper,Scope Lens,Modest,84,,,172,,252,Focus Energy,Draco Meteor,Ice Beam,Scald
-Salamence,Dragon,Flying,Intimidate,Blunder Policy,Mild,116,,204,84,100,4,Roost,Hurricane,Dragon Rush,Temper Flare
 Gallade,Psychic,Fighting,Sharpness,Expert Belt,Impish,220,36,252,,,,Sacred Sword,Psycho Cut,Aqua Cutter,Fury Cutter
 Gliscor,Ground,Flying,Sand Veil,White Herb,Adamant,84,172,,,252,,Sandstorm,Acrobatics,Scale Shot,Fury Cutter
-Yanmega,Bug,Flying,Speed Boost,Assault Vest,Modest,252,,180,4,68,4,Bug Buzz,Shadow Ball,Air Slash,Giga Drain
-Serperior,Grass,,Contrary,Light Clay,Timid,4,,,252,,252,Reflect,Light Screen,Leaf Storm,Giga Drain
-Haxorus,Dragon,,Unnerve,Muscle Band,Adamant,252,,,,156,100,Close Combat,Outrage,First Impression,Stomping Tantrum
-Malamar,Dark,Psychic,Contrary,Leftovers,Adamant,204,196,,,100,4,Topsy-Turvy,Baton Pass,Superpower,Knock Off
 Clawitzer,Water,,Mega Launcher,Wise Glasses,Modest,252,,108,44,100,4,Dragon Pulse,Dark Pulse,Aura Sphere,Water Pulse
-Lycanroc-dusk,Rock,,Tough Claws,Sitrus Berry,Jolly,252,100,,,,156,Stealth Rock,Last Resort,Stone Edge,Trailblaze
-Corviknight,Steel,Flying,Mirror Armor,Mirror Herb,Careful,60,,196,,252,,Roost,Swagger,Brave Bird,Body Press
+Lycanroc-Dusk,Rock,,Tough Claws,Salac Berry,Adamant,116,28,116,,116,132,Bulk Up,Close Combat,Psychic Fangs,Accelerock
 Toxtricity,Poison,Electric,Punk Rock,Throat Spray,Mild,4,156,76,20,,252,Shift Gear,Boomburst,Gunk Shot,Electro Ball
-Grimmsnarl,Dark,Fairy,Prankster,Figy Berry,Adamant,84,,252,,172,,Bulk Up,Spirit Break,Drain Punch,Sucker Punch
-Lokix,Bug,Dark,Tinted Lens,Focus Sash,Adamant,4,252,,,,252,Axe Kick,First Impression,Leech Life,Reversal
-Garganacl,Rock,,Purifying Salt,Rocky Helmet,Careful,60,236,,,212,,Rest,Sandstorm,Salt Cure,Rock Blast
-Orthworm,Steel,,Earth Eater,Figy Berry,Impish,252,,4,,252,,Shed Tail,Body Press,Sand Tomb,Wrap
-Tauros-F,Fighting,Fire,Intimidate,Assault Vest,Adamant,,124,,,252,132,Close Combat,Raging Bull,Wild Charge,Trailblaze
-Baxcalibur,Dragon,Ice,Ice Body,Icy Rock,Mild,12,,100,252,44,100,Snowscape,Draco Meteor,Glaive Rush,Blizzard
-Banette,Ghost,,Cursed Body,Leftovers,Adamant,,20,236,,252,,Swords Dance,Phantom Force,Sucker Punch ,Knock Off
-Florges,Fairy,,Flower Veil,Leftovers,Modest,220,,252,36,,,Calm Mind,Moonblast,Giga Drain,Stored Power
-Salazzle,Poison,Fire,Corrosion,Eject Pack,Timid,108,,,148,,252,Toxic Spikes,Overheat,Venoshock,Fake Out
-Glalie,Ice,,Moody,Weakness Policy,Bold,4,92,156,,252,4,Protect,Sheer Cold ,Blizzard,Earthquake
-Morpeko,Electric,Dark,Hunger Switch,Focus Sash,Adamant,252,172,28,,28,28,Baton Pass,Endeavor,Aura Wheel ,Rapid Spin
-Skeledirge,Fire,Ghost,Unaware,Assault Vest,Modest,252,,188,60,4,,Torch Song,Alluring Voice,Scorching Sands,Hex
-Venusaur,Grass,Poison,Chlorophyll,Heat Rock,Modest,228,,140,132,4,4,Sunny Day,Sleep Powder,Sludge Bomb,Giga Drain
-Wyrdeer,Normal,Psychic,Intimidate,Wiki Berry,Quiet,16,196,76,92,52,76,Thunderwave,Calm Mind,Psyshield Bash,Stored Power
-Vikavolt,Bug,Electric,Levitate,Blunder Policy,Bold,196,,4,4,212,92,Sticky Web,Zap Cannon,Energy Ball,Air Slash
-Ribombee,Bug,Fairy,Shield Dust,Fairy Feather,Modest,252,,76,180,,,Sticky Web,Quiver Dance,Moonblast,Draining Kiss
+Vikavolt,Bug,Electric,Levitate,Blunder Policy,Bold,196,,4,4,212,92,Sticky Web,Zap Cannon,Bug Buzz,Air Slash
+Gardevoir,Psychic,Fairy,Trace,Life Orb,Quiet,68,,252,36,4,148,Will-O-Wisp,Moonblast,Psychic Noise,Charge Beam
+Krookodile,Ground,Dark,Moxie,Choice Scarf,Adamant,252,120,,,76,60,Close Combat,Gunk Shot,Earthquake,Lash Out
+Dragalge,Poison,Dragon,Adaptability,Eject Pack,Calm,252,,4,252,,,Toxic Spikes,Draco Meteor,Sludge Wave,Venoshock
+Rotom,Electric,Ghost,Levitate,Choice Specs,Modest,252,,,92,,164,Trick,*,Hex,Volt Switch
+Copperajah,Steel,,Heavy Metal,Leftovers,Adamant,4,,252,,252,,Heat Crash,Heavy Slam,Supercell Slam,Body Press
+Ceruledge,Fire,Ghost,Flash Fire,Sitrus Berry,Adamant,100,,156,,,252,Bulk Up,Poltergeist,Bitter Blade,Shadow Sneak
+Dusknoir,Ghost,,Pressure,Leftovers,Adamant,252,132,60,,60,4,Curse,Pain Split,Phantom Force,Leech Life
+Sylveon,Fairy,,Pixilate,Big Root,Bold,100,,252,156,,,Yawn,Hyper Beam,Moonblast,Draining Kiss
+Delphox,Fire,Psychic,Magician,Throat Spray,Modest,172,,228,20,4,84,Will-O-Wisp,Flamethrower,Hyper Voice,Hex
+Inteleon,Water,,Sniper,Scope Lens,Modest,196,,132,4,132,44,Snipe Shot,Air Cutter,U-Turn,Vacuum Wave
+Magnezone,Electric,Steel,Analytic,Leftovers,Sassy,180,,116,,212,,Rest,Iron Defense,Thunder,Body Press
+Archaludon,Steel,Dragon,Stamina,Light Clay,Calm,252,,4,,252,,Reflect,Light Screen,Thunder Wave,Body Press
