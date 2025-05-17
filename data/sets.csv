@@ -2,7 +2,7 @@ Name,Type 1,Type 2,Ability,Item,Nature,HP,Atk,Def,Sp. Atk,Sp. Def,Spe,Move 1,Mov
 Gallade,Psychic,Fighting,Sharpness,Expert Belt,Impish,252,,252,,4,,Sacred Sword,Psycho Cut,Aqua Cutter,Fury Cutter
 Lycanroc-Dusk,Rock,,Tough Claws,Salac Berry,Adamant,252,4,124,,124,4,Bulk Up,Close Combat,Psychic Fangs,Accelerock
 Vikavolt,Bug,Electric,Levitate,Blunder Policy,Timid,252,,,,116,140,Sticky Web,Zap Cannon,Bug Buzz,Air Slash
-Krookodile,Ground,Dark,Moxie,Choice Scarf,Jolly,196,4,68,,156,84,Close Combat,Gunk Shot,Earthquake,Lash Out
+Krookodile,Ground,Dark,Moxie,Choice Scarf,Jolly,252,4,84,,164,4,Close Combat,Gunk Shot,Earthquake,Lash Out
 Dragalge,Poison,Dragon,Adaptability,Eject Pack,Bold,252,,156,100,,,Toxic Spikes,Draco Meteor,Sludge Wave,Venoshock
 Rotom,Electric,Ghost,Levitate,Choice Specs,Timid,244,,132,,132,,Trick,*,Shadow Ball,Volt Switch
 Ceruledge,Fire,Ghost,Flash Fire,Sitrus Berry,Jolly,244,,212,,52,,Bulk Up,Poltergeist,Bitter Blade,Shadow Sneak
