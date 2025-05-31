@@ -24,25 +24,27 @@ let players = {
 }
 let currPlayer = player1;
 
-function takePkmn() {
-    let pkmn = document.querySelector('#pkmn-name').textContent;
+function takePkmn(skip=false) {
+    if (!skip) {
+        let pkmn = document.querySelector('#pkmn-name').textContent;
 
-    currPlayer.querySelector(".pkmn-list").innerHTML += `
-        <div class="pkmn-item">
-            <span class="pkmn-name">${pkmn}</span>
-        </div>
-    `;
+        currPlayer.querySelector(".pkmn-list").innerHTML += `
+            <div class="pkmn-item">
+                <span class="pkmn-name">${pkmn}</span>
+            </div>
+        `;
 
-    // Move to the next player
-    currPlayer.querySelector("h3").classList.remove("active");
+        // Move to the next player
+        currPlayer.querySelector("h3").classList.remove("active");
 
-    let playerNum = parseInt(currPlayer.id.split("-")[1]);
-    playerNum++; // Move to the next player
-    if (playerNum > 4) {
-        playerNum = 1; // Loop back to player 1
+        let playerNum = parseInt(currPlayer.id.split("-")[1]);
+        playerNum++; // Move to the next player
+        if (playerNum > 4) {
+            playerNum = 1; // Loop back to player 1
+        }
+        currPlayer = players[playerNum]; // Update the current player
+        currPlayer.querySelector("h3").classList.add("active"); // Highlight the current player
     }
-    currPlayer = players[playerNum]; // Update the current player
-    currPlayer.querySelector("h3").classList.add("active"); // Highlight the current player
 
     displayRandomSet();
 }

@@ -206,6 +206,9 @@ body {
 #pkmn-name {
     text-align: center;
 }
+#pkmn-info-table {
+    height: 25rem;
+}
 table {
     height: 26%;
     width: 60%;
