@@ -3,93 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokémon Stat Distributor</title>
+    <title>Battle Factory Site</title>
 
     <link rel="stylesheet" href="styles/main.css">
 </head>
 
-<body onload="init()">
-    <div id="pkmn-info" class="major-component">
-        <input id="pkmn-search" type="text" placeholder="Find Pokémon..." onkeyup="findPkmn()" oninput="showSuggestions(this.value)">
-        <div id="suggestions"></div>
-
-        <div id="pkmn-display">
-            <div id="pkmn-name">Search for a Pokémon</div>
-            <button id="add-to-team">Add to Team</button>
-        </div>
-    </div>
-
-    <div id="stat-calculator" class="major-component">
-
-        <div id="remaining-stats">
-            <div id="remaining-evs-display">Remaining EVs:</div>
-            <div id="remaining-evs-value">508</div>
-            <div id="remaining-points-display">Remaining Points:</div>
-            <div id="remaining-points-value">60</div>
-        </div>
-
-        <div id="stat-values">
-            <div id="hp-row" class="stats-row">
-                <input id="hp-input" class="stat-form-item hp" type="number" step="4">
-                <div id="hp-base" class="stat-form-item base-stat-div"></div>
-                <div id="hp-display" class="stat-form-item stat-value-div">HP: </div>
-            </div>
-            <div id="atk-row" class="stats-row">
-                <input id="atk-input" class="stat-form-item atk" type="number" step="4">
-                <div id="atk-base" class="stat-form-item base-stat-div"></div>
-                <div id="atk-display" class="stat-form-item stat-value-div">Atk: </div>
-            </div>
-            <div id="def-row" class="stats-row">
-                <input id="def-input" class="stat-form-item def" type="number" step="4">
-                <div id="def-base" class="stat-form-item base-stat-div"></div>
-                <div id="def-display" class="stat-form-item stat-value-div">Def: </div>
-            </div>
-            <div id="spatk-row" class="stats-row">
-                <input id="spatk-input" class="stat-form-item spatk" type="number" step="4">
-                <div id="spatk-base" class="stat-form-item base-stat-div"></div>
-                <div id="spatk-display" class="stat-form-item stat-value-div">Sp.Atk: </div>
-            </div>
-            <div id="spdef-row" class="stats-row">
-                <input id="spdef-input" class="stat-form-item spdef" type="number" step="4">
-                <div id="spdef-base" class="stat-form-item base-stat-div"></div>
-                <div id="spdef-display" class="stat-form-item stat-value-div">Sp.Def: </div>
-            </div>
-            <div id="spe-row" class="stats-row">
-                <input id="spe-input" class="stat-form-item spe" type="number" step="4">
-                <div id="spe-base" class="stat-form-item base-stat-div"></div>
-                <div id="spe-display" class="stat-form-item stat-value-div">Spe: </div>
-            </div>
-        </div>
-
-        <div id="nature-modifiers">
-            <div id="atk-nature-modifiers" class="nature-modifier-row">
-                <div id="atk-nature-minus" class="stat-form-item nature-minus nature-modifier-button">-</div>
-                <div id="atk-nature-plus" class="stat-form-item nature-plus nature-modifier-button">+</div>
-            </div>
-            <div id="def-nature-modifiers" class="nature-modifier-row">
-                <div id="def-nature-minus" class="stat-form-item nature-minus nature-modifier-button">-</div>
-                <div id="def-nature-plus" class="stat-form-item nature-plus nature-modifier-button">+</div>
-            </div>
-            <div id="spatk-nature-modifiers" class="nature-modifier-row">
-                <div id="spatk-nature-minus" class="stat-form-item nature-minus nature-modifier-button">-</div>
-                <div id="spatk-nature-plus" class="stat-form-item nature-plus nature-modifier-button">+</div>
-            </div>
-            <div id="spdef-nature-modifiers" class="nature-modifier-row">
-                <div id="spdef-nature-minus" class="stat-form-item nature-minus nature-modifier-button">-</div>
-                <div id="spdef-nature-plus" class="stat-form-item nature-plus nature-modifier-button">+</div>
-            </div>
-            <div id="spe-nature-modifiers" class="nature-modifier-row">
-                <div id="spe-nature-minus" class="stat-form-item nature-minus nature-modifier-button">-</div>
-                <div id="spe-nature-plus" class="stat-form-item nature-plus nature-modifier-button">+</div>
-            </div>
-        </div>
-    </div>
-
-    <div id="team">
-    
-    </div>
-    
-
-    <script src="scripts/main.js"></script>
+<body>
+    <a href="stats.html" class="nav-link">Pokémon Stat Distributor</a>
+    <a href="draft.html" class="nav-link">Battle Factory Draft</a>
+    <a href="set-lookup.html" class="nav-link">Battle Factory Set Lookup</a>
 </body>
 </html>

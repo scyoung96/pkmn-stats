@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battle Factory Site</title>
+
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <div id="pkmn-info" class="major-component">
+        <input id="pkmn-search" type="text" placeholder="Find Pokémon..." onkeyup="findSet()">
+    </div>
+    
+    <h2 id="pkmn-name">NAME</h2>
+    <table>
+        <tr>
+            <th>Type</th>
+            <th>Ability</th>
+            <th>Item</th>
+            <th>Nature</th>
+        </tr>
+        <tr>
+            <td id="type1">TYPE1</td>
+            <td id="ability" rowspan="2">ABILITY</td>
+            <td id="item" rowspan="3">ITEM</td>
+            <td id="nature" rowspan="3">NATURE<br><span id="nature-modifiers">+Atk, -Sp. Atk</span></td>
+        </tr>
+        <tr>
+            <td id="type2">TYPE2</td>
+        </tr>
+
+        <tr>
+            <td id="ev-hp">HP</td>
+            <td id="ev-spe">Spe</td>
+
+        </tr>
+
+        <tr>
+            <td id="ev-atk">Atk</td>
+            <td id="ev-spa">SpA</td>
+
+            <td id="move1" class="move">MOVE 1</td>
+            <td id="move2" class="move">MOVE 2</td>
+        </tr>
+
+        <tr>
+            <td id="ev-def">Def</td>
+            <td id="ev-spd">SpD</td>
+
+            <td id="move3" class="move">MOVE 3</td>
+            <td id="move4" class="move">MOVE 4</td>
+        </tr>
+    </table>
+    
+
+    <script src="scripts/set-lookup.js"></script>
+</body>
+</html>

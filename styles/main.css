@@ -66,6 +66,7 @@ html, body {
 }
 .nature-minus.active {
     background-color: rgba(255, 0, 0, 0.3);
+    border: 1px solid red;
 }
 
 .nature-plus {
@@ -74,6 +75,7 @@ html, body {
 }
 .nature-plus.active {
     background-color: rgba(0, 0, 255, 0.3);
+    border: 1px solid blue;
 }
 
 .nature-modifier-button {
@@ -86,6 +88,7 @@ html, body {
     margin-left: 0.25rem;
     cursor: pointer;
     user-select: none;
+    padding: 0 !important;
 }
 
 .stats-row {
@@ -199,6 +202,8 @@ input.stat-form-item {
 /* ANCHOR: battle factory */
 body {
     font-family: Arial, sans-serif;
+}
+#pkmn-name {
     text-align: center;
 }
 table {
