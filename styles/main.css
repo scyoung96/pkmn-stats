@@ -208,6 +208,7 @@ body {
 }
 #pkmn-info-table {
     height: 25rem;
+    width: 95%;
 }
 table {
     height: 26%;
