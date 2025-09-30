@@ -5,7 +5,6 @@ Dusknoir,Ghost,,Pressure,Leftovers,Adamant,244,,132,,132,,Curse,Pain Split,Phant
 Delphox,Fire,Psychic,Magician,Throat Spray,Bold,252,,140,4,4,108,Will-O-Wisp,Flamethrower,Hyper Voice,Hex
 Donphan,Ground,,Sturdy,Heavy-Duty Boots,Careful,252,,,,252,4,Stealth Rock,Earthquake,Play Rough,Rapid Spin
 Kingdra,Water,Dragon,Sniper,Scope Lens,Modest,252,,,4,,252,Focus Energy,Draco Meteor,Ice Beam,Scald
-Grimmsnarl,Dark,Fairy,Prankster,Figy Berry,Adamant,244,,132,,132,,Bulk Up,Play Rough,Drain Punch,Sucker Punch
 Lokix,Bug,Dark,Tinted Lens,Focus Sash,Jolly,244,20,4,,188,52,Axe Kick,First Impression,Leech Life,Reversal
 Salamence,Dragon,Flying,Intimidate,Blunder Policy,Jolly,252,,,4,,252,Roost,Hurricane,Iron Head,Temper Flare
 Gliscor,Ground,Flying,Poison Heal,Toxic Orb,Bold,252,,4,,252,,Roost,Earthquake,Facde,U-Turn
@@ -17,14 +16,11 @@ Espeon,Psychic,,Magic Bounce,Shell Bell,Timid,204,,252,,,52,Calm Mind,Psyshock,S
 Dragapult,Dragon,Ghost,Cursed Body,Light Clay,Jolly,244,4,52,,52,156,Reflect,Light Screen,Dragon Darts,Psychic Fangs
 Kleavor,Bug,Rock,Sharpness,Assault Vest,Careful,252,4,28,,148,76,X-scissor,Stone Axe,Night Slash,U-turn
 Clodsire,Poison,Ground,Unaware,Leftovers,Impish,236,36,236,,,,Stockpile,Swallow,Poison Jab,Earthquake
-Espathra,Psychic,,Speed Boost,Clear Amulet,Timid,156,,156,28,156,12,Calm Mind,Lumina Crash, Dazzling Gleam, Stored Power
 Exeggutor-Alola,Grass,Dragon,Harvest,Sitrus Berry,Bold,252,,44,,212,,Sunny Day,Calm Mind,Solar Beam,Dragon Pulse
-Porygon-Z,Normal,,Adaptability,Sitrus Berry,Timid,180,,76,4,36,212,Gravity,Blizzard,Thunder,Tera Blast
 Porygon2,Normal,,Analytic,Eviolite,Relaxed,252,,100,,156,,Recover,Hyper Beam,Tri Attack,Shadow Ball
 Weezing-Galar,Poison,Fairy,Misty Surge,Leftovers,Sassy,180,,76,,252,,Curse,Gunk Shot,Play Rough,Gyro Ball
 Hatterene,Psychic,Fairy,Magic Bounce,Assault Vest,Sassy,252,,204,,52,,Future Sight,Shadow Ball,Dazzling Gleam,Giga Drain 
 Primarina,Water,Fairy,Liquid Voice,Choice Specs,Bold,244,,252,,12,,Moonblast,Hyper Voice,Ice Beam,Energy Ball
-Iron Thorns,Rock,Electric,Quark Drive,Terrain Extender,Impish,196,4,84,,44,180,Electric Terrain,Supercell Slam,Body Press,Dragon Tail
 Dondozo,Water,,Unaware,Leftovers,Careful,220,36,,,252,,Substitute,Wave Crash,Earthquake,Avalanche
 Greninja,Water,Dark,Battle Bond,Life Orb,Modest,252,,100,4,68,84,Toxic Spikes,Hydro Pump,Sludge Wave,Dark Pulse
 Hydrapple,Grass,Dragon,Regenerator,Eject Pack,Bold,252,,,4,252,,Recycle,Draco Meteor,Leaf Storm,Fickle Beam
