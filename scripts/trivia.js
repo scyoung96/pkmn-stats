@@ -39,3 +39,14 @@ function getRandomFact() {
             console.error('Error fetching data:', error);
         });
 }
+
+function getRandomFactLocal() {
+    let randomPkmn = pkmnList[Math.floor(Math.random() * pkmnList.length)];
+    console.log(`Fetching trivia for: ${randomPkmn}`);
+    pkmnNameEl.textContent = randomPkmn.charAt(0).toUpperCase() + randomPkmn.slice(1);
+
+    let factText = triviaDict[randomPkmn][Math.floor(Math.random() * triviaDict[randomPkmn].length)];
+    console.log(factText);
+    triviaFactEl.textContent = factText;
+    return factText;
+}
