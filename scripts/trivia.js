@@ -56,7 +56,8 @@ function getRandomFact() {
 }
 
 function getRandomFactLocal() {
-    let randomPkmn = pkmnList[Math.floor(Math.random() * pkmnList.length)].charAt(0).toUpperCase() + pkmnList[Math.floor(Math.random() * pkmnList.length)].slice(1);
+    let randomPkmn = pkmnList[Math.floor(Math.random() * pkmnList.length)];
+    randomPkmn = randomPkmn.charAt(0).toUpperCase() + randomPkmn.slice(1);
     console.log(`Fetching trivia for: ${randomPkmn}`);
     pkmnNameEl.textContent = randomPkmn;
 
