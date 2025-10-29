@@ -56,15 +56,9 @@ function getRandomFact() {
 }
 
 function getRandomFactLocal() {
-    // Check if data is loaded
-    if (!pkmnList || !triviaDict) {
-        console.error('Data not loaded yet. Please wait for initialization to complete.');
-        return;
-    }
-
-    let randomPkmn = pkmnList[Math.floor(Math.random() * pkmnList.length)];
+    let randomPkmn = pkmnList[Math.floor(Math.random() * pkmnList.length)].charAt(0).toUpperCase() + pkmnList[Math.floor(Math.random() * pkmnList.length)].slice(1);
     console.log(`Fetching trivia for: ${randomPkmn}`);
-    pkmnNameEl.textContent = randomPkmn.charAt(0).toUpperCase() + randomPkmn.slice(1);
+    pkmnNameEl.textContent = randomPkmn;
 
     // Check if the Pokemon exists in triviaDict and has trivia
     if (!triviaDict[randomPkmn] || !Array.isArray(triviaDict[randomPkmn]) || triviaDict[randomPkmn].length === 0) {
