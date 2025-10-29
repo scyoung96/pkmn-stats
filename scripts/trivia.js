@@ -15,6 +15,21 @@ async function initializePkmnList() {
     return data;
 }
 
+let triviaDict;
+initializeTriviaDict().then((data) => {
+    triviaDict = data;
+    console.log(triviaDict);
+});
+
+async function initializeTriviaDict() {
+    let data = await fetch('data/trivia_dict.json')
+        .then(response => response.json())
+        .then(data => data);
+
+    return data;
+}
+
+
 function getRandomFact() {
     let randomPkmn = pkmnList[Math.floor(Math.random() * pkmnList.length)];
     console.log(`Fetching trivia for: ${randomPkmn}`);
